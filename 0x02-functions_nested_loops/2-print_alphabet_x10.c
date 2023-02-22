@@ -3,6 +3,8 @@
 /**
  * main - prints 10 times the alphabet, in lowercase
  * followed by a new line
+ *
+ * Return: Always 0
  */
 int main(void)
 {
@@ -20,6 +22,6 @@ int main(void)
 			ch++;
 		}
 		_putchar('\n');
-		i++;
+		'i'++;
 	}
 }
