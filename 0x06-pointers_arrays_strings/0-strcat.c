@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strcat - Conactenates two strings.
- *
+ * _strcat - appends the src string to the dest string.
+ * null byte, to the end of the string pointed to by @dest.
  * @dest: input value.
  * @src: input value.
  *
