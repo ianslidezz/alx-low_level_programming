@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * strcat - Concatenates two strings.
+ * _strcat - Concatenates two strings.
  * null byte, to the end of string pointed to by @dest.
  * @dest: input value.
  * @src: input value.
  *
  * Return: void
  */
-char *strcat(char *dest,const char *src)
+char *_strcat(char *dest, const char *src)
 {
 	int i;
 	int j;
@@ -18,7 +18,7 @@ char *strcat(char *dest,const char *src)
 	{
 		i++;
 	}
-	j = 0;	
+	j = 0;
 	while (src[j] != '\0')
 	{
 		dest[i] = src[j];
